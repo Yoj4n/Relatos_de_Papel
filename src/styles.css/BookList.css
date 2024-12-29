@@ -1,0 +1,46 @@
+.books-list {
+    padding: 20px;
+    margin: 50px;
+  }
+  
+  .books-list__search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .books-list__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .books-list__table th {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+  }
+  
+  .books-list__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .books-list__cards .book-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+  }
+  
+  .books-list__cards .book-card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  

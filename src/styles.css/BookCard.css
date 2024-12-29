@@ -1,0 +1,39 @@
+.book-card__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.book-card__button {
+  flex: 1; 
+  background: #28a745; 
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+  margin-right: 5px; 
+}
+
+.book-card__button:hover {
+  background: #218838; 
+}
+
+.book-card__details-link {
+  flex: 1; 
+  background: #007bff; 
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.book-card__details-link:hover {
+  background: #0056b3; 
+}

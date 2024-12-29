@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+.header__title {
+  font-size: 3rem; 
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif; /* Cambia el tipo de letra */
+}
+
+.header__image {
+  width: 150px;
+  height: auto;
+  margin-top: -50px;
+}
